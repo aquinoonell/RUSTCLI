@@ -13,6 +13,7 @@ fn main() {
             Arg::new("lastname")
                 .short('l')
                 .long("last-name")
+                .alias("lname")
                 .required(true),
         )
         .get_matches();
